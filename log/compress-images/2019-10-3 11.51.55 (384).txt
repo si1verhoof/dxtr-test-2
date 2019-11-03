@@ -1,0 +1,8 @@
+File from: [dev/img/Повар.png]
+
+File to: [prod/img/Повар.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\Shumway\Documents\GitHub\dxtr-test-2\node_modules\pngquant-bin\vendor\pngquant.exe --quality=30-60 -o prod/img/Повар.png dev/img/Повар.png
+  error: cannot open dev\img\Повар.png for reading
