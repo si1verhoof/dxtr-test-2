@@ -548,16 +548,13 @@ button {
   position: absolute;
   top: 50%;
   width: 51px;
-  height: 51px;
-  background-color: rgba(255,255,255,0.2);
+  height: 68px;
   margin-top: -25px;
   z-index: 10;
   cursor: pointer;
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAPCAQAAAB39paFAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjARYMLClmj+jZAAAAdklEQVQY02XPwQnCUBBF0fsTwVqSXaxLrEWDFViTHWSjYCoQvC4mIfP1ze4wMG+QNMXRk+zYUhg5IuStq5HzP10sQW0mQeydMgn2PmuShv3S4M0Nlx7i4Kzq7CE249APr5Uq3soPvlbOnwc/7LDmu50UqdLwgS+qZ6ol44Q1egAAAABJRU5ErkJggg==");
-  background-position: 20px 19px;
+  background-image: url("/static/i/arr_l.png");
   background-repeat: no-repeat;
   outline: none;
-  border-radius: 50%;
   -webkit-transition: 0.7s background;
   transition: 0.7s background;
 }
@@ -3657,13 +3654,14 @@ body-webkit-scrollbar {
   border-radius: 50%;
   position: absolute;
   background-color: #009fa1;
-  background-image: url("img/logo.png");
-  background-position: 30% 70%;
+  background-image: url("/static/i/logo.png");
+  background-position: 60% 70%;
   left: 50%;
   top: -110px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 2;
+  background-repeat: no-repeat;
 }
 .promo__title {
   font-family: "GaramondBookNarrowC";
@@ -3824,11 +3822,12 @@ body-webkit-scrollbar {
   overflow: hidden;
 }
 .food__text-panel:first-child {
-  background-image: url("img/cont-1.png");
+  background-image: url("/../img/cont-1.png");
 }
 .food__text-panel:last-child {
   background-color: #f0fbfb;
-  background-image: url("img/cont-1.png");
+  background-image: url("/../img/cont-1.png");
+  z-index: 2;
 }
 .food__href-title {
   font-size: 22px;
